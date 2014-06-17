@@ -1,0 +1,7 @@
+body {
+  margin: 0;
+}
+[data-component=header] {
+  background-color: red;
+  color: black;
+}
