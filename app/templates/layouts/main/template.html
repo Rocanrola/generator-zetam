@@ -3,13 +3,20 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Refu</title>
-    <link rel="stylesheet" href="css/bundle.css">
+    <title>Zetam Project</title>
+    <link rel="stylesheet" href="/css/controllers/{{controllerName}}.css">
 </head>
 
-<body>
+<body data-layout-name="main">
+	
 	<header data-component="header"></header>
-	<div data-layout="{{contentLayout}}"></div>
+	
+	<div data-role="main" data-layout="{{mainLayout}}"></div>
+
+	<footer data-component="footer"></footer>
+
+	<script src="/js/controllers/{{controllerName}}.js"></script>
+
 </body>
 
 </html>

@@ -7,35 +7,50 @@ module.exports = function(grunt) {
                 livereload: true
             },
             express: {
-                files: ['**/*.js', '!**/node_modules/**'],
-                tasks: ['express:dev'],
-                options: {
-                  spawn: false,
-                }
+                files: ['**/*.js', '!**/node_modules/**', '!**/components/**/view.js', '!**/controllers/**/client.js', '!**/public/*.js'],
+                tasks: ['express:dev']
             },
             less: {
                 files: ['**/*.less'],
-                tasks: ['less']
+                tasks: ['less','autoprefixer']
             },
             statics: {
-                files: ['**/*.html','**/*.css']
+                files: ['**/*.html', '**/*.css']
+            },
+            jsclient: {
+                files: ['**/controllers/**/client.js', '**/components/**/view.js'],
+                tasks: ['browserify']
             }
+        },
+        autoprefixer: {
+            single_file: {
+                src: 'public/css/bundle.css',
+                dest: 'public/css/bundle.css'
+            },
         },
         less: {
             development: {
                 files: {
-                    "public/css/bundle.css": "less/bundle.less"
+                    "public/css/controllers/index.css": "controllers/index/bundle.less"
+                }
+            }
+        },
+        browserify: {
+            dist: {
+                files: {
+                    'public/js/controllers/index.js': ['controllers/index/client.js'],
                 }
             }
         },
         express: {
             dev: {
                 options: {
-                    script: 'app.js'
+                    script: 'app.js',
+                    node_env: 'development'
                 }
             }
         }
     });
 
-    grunt.registerTask('default', ['express:dev', 'watch']);
+    grunt.registerTask('default', ['express:dev', 'less', 'browserify', 'watch']);
 }

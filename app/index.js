@@ -10,11 +10,11 @@ var ZetamGenerator = yeoman.generators.Base.extend({
   init: function () {
     this.pkg = require('../package.json');
 
-    this.on('end', function () {
-      if (!this.options['skip-install']) {
-        this.installDependencies();
-      }
-    });
+    // this.on('end', function () {
+    //   if (!this.options['skip-install']) {
+    //     this.installDependencies();
+    //   }
+    // });
   },
 
   askFor: function () {
@@ -23,37 +23,30 @@ var ZetamGenerator = yeoman.generators.Base.extend({
     // Have Yeoman greet the user.
     this.log(yosay('Welcome to the marvelous Zetam generator!'));
 
-    var prompts = [{
-      type: 'confirm',
-      name: 'someOption',
-      message: 'Would you like to enable this option?',
-      default: true
-    }];
-
-    this.prompt(prompts, function (props) {
-      this.someOption = props.someOption;
-
-      done();
-    }.bind(this));
+    done();
   },
 
   app: function () {
-    this.mkdir('app');
-    this.mkdir('app/templates');
-
-    this.copy('_package.json', 'package.json');
+    this.copy('package.json', 'package.json');
+    this.copy('app.js', 'app.js');
+    this.copy('Gruntfile.js', 'Gruntfile.js');
   },
   projectfiles: function () {
-    this.copy('editorconfig', '.editorconfig');
-    this.copy('jshintrc', '.jshintrc');
+    this.directory('components', 'components');
+    this.directory('controllers', 'controllers');
+    this.directory('layouts', 'layouts');
+    this.directory('less', 'less');
+    this.directory('libs', 'libs');
+    this.directory('models', 'models');
+    this.directory('public', 'public');
   },
   runNpm: function(){
       var done = this.async();
       done();
-      // this.npmInstall("", function(){
-      //     console.log("\nEverything Setup !!!\n");
-      //     done();
-      // });
+      this.npmInstall("", function(){
+          console.log("\nEverything Setup !!!\n");
+          done();
+      });
   }
 });
 

@@ -1,10 +1,11 @@
 var express = require('express');
 var app = express();
-var port = 3004;
+var port = process.env.PORT || 3004;
 
-app.use(require('connect-livereload')({
-    port: 35729
-  }));
+if(process.env.NODE_ENV == 'development'){
+	app.use(require('connect-livereload')({ port: 35729}));
+}
+
 
 app.use(express.static(__dirname + '/public'));
 

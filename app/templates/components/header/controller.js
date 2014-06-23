@@ -1,14 +1,11 @@
-var usersModel = require('../../models/users');
+var z = require('zetam');
+var usersModel = z.models.load('users');
 
 exports.init = function (conf,cb) {
-	
-	usersModel.findOne({username:'mzapaia'},function(err,user){
 
-		var data = {
-			userData:JSON.stringify(user),
-			sitename:"refu"
-		}
+	var data = {
+		random:Math.random()
+	}
 
-		cb(null,data);
-	})
+	cb(null,data);
 }
