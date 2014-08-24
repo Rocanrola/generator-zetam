@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate",
+  "name": "Zetam Boilerplate",
   "version": "0.0.1",
   "main": "app.js",
   "dependencies": {
@@ -11,9 +11,5 @@
     "zetam-client": "latest"
   },
   "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+  "author": ""
 }
