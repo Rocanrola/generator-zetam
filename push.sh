@@ -9,4 +9,7 @@ fi
 
 git add .
 git commit -am "$MSSG"
-git push origin HEAD
+git push origin master
+
+npm version patch
+npm publish
