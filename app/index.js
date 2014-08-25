@@ -31,6 +31,7 @@ var ZetamGenerator = yeoman.generators.Base.extend({
     this.copy('gulpfile.js', 'gulpfile.js');
     this.copy('package.json', 'package.json');
     this.copy('gitignore', '.gitignore');
+    this.copy('Procfile', 'Procfile');
   },
   projectfiles: function () {
     this.directory('components', 'components');
