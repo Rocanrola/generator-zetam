@@ -10,9 +10,6 @@
     "zetam": "latest",
     "zetam-client": "latest"
   },
-  "scripts":{
-    "postinstall": "node node_modules/.bin/gulp zetam-build"
-  },
   "devDependencies": {},
   "author": ""
 }
