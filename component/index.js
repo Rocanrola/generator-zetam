@@ -32,10 +32,12 @@ var ZetamGenerator = yeoman.generators.Base.extend({
     var context = {
       componentName:this.componentName
     }
-    this.template('controller.js', 'components/'+ this.componentName +'/controller.js',context);
+
     this.template('styles.less', 'components/'+ this.componentName +'/styles.less',context);
     this.template('template.html', 'components/'+ this.componentName +'/template.html',context);
     this.template('view.js', 'components/'+ this.componentName +'/view.js',context);
+    this.copy('controller.js', 'components/'+ this.componentName +'/controller.js');
+    this.copy('i18n.json', 'components/'+ this.componentName +'/i18n.json');
   },
   // projectfiles: function () {
   //   this.directory('components', 'components');
