@@ -9,7 +9,7 @@ var chalk = require('chalk');
 var ZetamGenerator = yeoman.generators.Base.extend({
   init: function () {
     this.pkg = require('../package.json');
-
+    console.log('tete')
     // this.on('end', function () {
     //   if (!this.options['skip-install']) {
     //     this.installDependencies();
@@ -31,6 +31,7 @@ var ZetamGenerator = yeoman.generators.Base.extend({
     this.copy('gulpfile.js', 'gulpfile.js');
     this.copy('package.json', 'package.json');
     this.copy('gitignore', '.gitignore');
+    this.copy('Procfile', 'Procfile');
   },
   projectfiles: function () {
     this.directory('components', 'components');

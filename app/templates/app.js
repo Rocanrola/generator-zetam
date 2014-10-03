@@ -12,6 +12,8 @@ app.use(function(req,res,next){
 	next();
 });
 
+z.load.paths([__dirname+'/globals']);
+
 if(process.env.NODE_ENV == 'development'){
 	console.log('development mode');
 	app.use(require('connect-livereload')({ port: 35729}));
