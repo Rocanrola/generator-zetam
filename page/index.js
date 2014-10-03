@@ -39,6 +39,7 @@ var ZetamGenerator = yeoman.generators.Base.extend({
     this.copy('controller.js', 'pages/'+ this.pageName +'/controller.js');
     this.copy('styles.less', 'pages/'+ this.pageName +'/styles.less');
     this.copy('i18n.json', 'pages/'+ this.pageName +'/i18n.json');
+    this.copy('view.js', 'pages/'+ this.pageName +'/view.js');
     
     var done = this.async();
     done();
