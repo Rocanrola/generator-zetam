@@ -19,24 +19,24 @@
 7 verbose parsed url   href: '.' }
 8 silly lockFile 3a52ce78- .
 9 verbose lock . /Users/marcelozapaia/.npm/3a52ce78-.lock
-10 verbose tar pack [ '/var/folders/r6/cf27pw7x1xx133f_wrkqg5440000gn/T/npm-76427-pY_dF5W6/1413087255539-0.9432821171358228/tmp.tgz',
+10 verbose tar pack [ '/var/folders/r6/cf27pw7x1xx133f_wrkqg5440000gn/T/npm-76483-GOf02TSs/1413087311915-0.29058593581430614/tmp.tgz',
 10 verbose tar pack   '.' ]
-11 verbose tarball /var/folders/r6/cf27pw7x1xx133f_wrkqg5440000gn/T/npm-76427-pY_dF5W6/1413087255539-0.9432821171358228/tmp.tgz
+11 verbose tarball /var/folders/r6/cf27pw7x1xx133f_wrkqg5440000gn/T/npm-76483-GOf02TSs/1413087311915-0.29058593581430614/tmp.tgz
 12 verbose folder .
-13 info prepublish generator-zetam@0.1.17
+13 info prepublish generator-zetam@0.1.18
 14 silly lockFile 1f1177db-tar tar://.
 15 verbose lock tar://. /Users/marcelozapaia/.npm/1f1177db-tar.lock
-16 silly lockFile ace9ae67-55539-0-9432821171358228-tmp-tgz tar:///var/folders/r6/cf27pw7x1xx133f_wrkqg5440000gn/T/npm-76427-pY_dF5W6/1413087255539-0.9432821171358228/tmp.tgz
-17 verbose lock tar:///var/folders/r6/cf27pw7x1xx133f_wrkqg5440000gn/T/npm-76427-pY_dF5W6/1413087255539-0.9432821171358228/tmp.tgz /Users/marcelozapaia/.npm/ace9ae67-55539-0-9432821171358228-tmp-tgz.lock
+16 silly lockFile ad028f95-1915-0-29058593581430614-tmp-tgz tar:///var/folders/r6/cf27pw7x1xx133f_wrkqg5440000gn/T/npm-76483-GOf02TSs/1413087311915-0.29058593581430614/tmp.tgz
+17 verbose lock tar:///var/folders/r6/cf27pw7x1xx133f_wrkqg5440000gn/T/npm-76483-GOf02TSs/1413087311915-0.29058593581430614/tmp.tgz /Users/marcelozapaia/.npm/ad028f95-1915-0-29058593581430614-tmp-tgz.lock
 18 silly lockFile 1f1177db-tar tar://.
 19 silly lockFile 1f1177db-tar tar://.
-20 silly lockFile ace9ae67-55539-0-9432821171358228-tmp-tgz tar:///var/folders/r6/cf27pw7x1xx133f_wrkqg5440000gn/T/npm-76427-pY_dF5W6/1413087255539-0.9432821171358228/tmp.tgz
-21 silly lockFile ace9ae67-55539-0-9432821171358228-tmp-tgz tar:///var/folders/r6/cf27pw7x1xx133f_wrkqg5440000gn/T/npm-76427-pY_dF5W6/1413087255539-0.9432821171358228/tmp.tgz
-22 verbose tar unpack /var/folders/r6/cf27pw7x1xx133f_wrkqg5440000gn/T/npm-76427-pY_dF5W6/1413087255539-0.9432821171358228/tmp.tgz
-23 silly lockFile 9ae97aaa-m-generator-zetam-0-1-17-package tar:///Users/marcelozapaia/.npm/generator-zetam/0.1.17/package
-24 verbose lock tar:///Users/marcelozapaia/.npm/generator-zetam/0.1.17/package /Users/marcelozapaia/.npm/9ae97aaa-m-generator-zetam-0-1-17-package.lock
-25 silly lockFile ace9ae67-55539-0-9432821171358228-tmp-tgz tar:///var/folders/r6/cf27pw7x1xx133f_wrkqg5440000gn/T/npm-76427-pY_dF5W6/1413087255539-0.9432821171358228/tmp.tgz
-26 verbose lock tar:///var/folders/r6/cf27pw7x1xx133f_wrkqg5440000gn/T/npm-76427-pY_dF5W6/1413087255539-0.9432821171358228/tmp.tgz /Users/marcelozapaia/.npm/ace9ae67-55539-0-9432821171358228-tmp-tgz.lock
+20 silly lockFile ad028f95-1915-0-29058593581430614-tmp-tgz tar:///var/folders/r6/cf27pw7x1xx133f_wrkqg5440000gn/T/npm-76483-GOf02TSs/1413087311915-0.29058593581430614/tmp.tgz
+21 silly lockFile ad028f95-1915-0-29058593581430614-tmp-tgz tar:///var/folders/r6/cf27pw7x1xx133f_wrkqg5440000gn/T/npm-76483-GOf02TSs/1413087311915-0.29058593581430614/tmp.tgz
+22 verbose tar unpack /var/folders/r6/cf27pw7x1xx133f_wrkqg5440000gn/T/npm-76483-GOf02TSs/1413087311915-0.29058593581430614/tmp.tgz
+23 silly lockFile 21f9a006-m-generator-zetam-0-1-18-package tar:///Users/marcelozapaia/.npm/generator-zetam/0.1.18/package
+24 verbose lock tar:///Users/marcelozapaia/.npm/generator-zetam/0.1.18/package /Users/marcelozapaia/.npm/21f9a006-m-generator-zetam-0-1-18-package.lock
+25 silly lockFile ad028f95-1915-0-29058593581430614-tmp-tgz tar:///var/folders/r6/cf27pw7x1xx133f_wrkqg5440000gn/T/npm-76483-GOf02TSs/1413087311915-0.29058593581430614/tmp.tgz
+26 verbose lock tar:///var/folders/r6/cf27pw7x1xx133f_wrkqg5440000gn/T/npm-76483-GOf02TSs/1413087311915-0.29058593581430614/tmp.tgz /Users/marcelozapaia/.npm/ad028f95-1915-0-29058593581430614-tmp-tgz.lock
 27 silly gunzTarPerm modes [ '755', '644' ]
 28 silly gunzTarPerm extractEntry package.json
 29 silly gunzTarPerm extractEntry README.md
@@ -58,14 +58,14 @@
 45 silly gunzTarPerm extractEntry app/templates/public/css/pages/index.css
 46 silly gunzTarPerm extractEntry app/templates/public/js/components/base.js
 47 silly gunzTarPerm extractEntry app/templates/public/js/pages/index.js
-48 silly lockFile 9ae97aaa-m-generator-zetam-0-1-17-package tar:///Users/marcelozapaia/.npm/generator-zetam/0.1.17/package
-49 silly lockFile 9ae97aaa-m-generator-zetam-0-1-17-package tar:///Users/marcelozapaia/.npm/generator-zetam/0.1.17/package
-50 silly lockFile ace9ae67-55539-0-9432821171358228-tmp-tgz tar:///var/folders/r6/cf27pw7x1xx133f_wrkqg5440000gn/T/npm-76427-pY_dF5W6/1413087255539-0.9432821171358228/tmp.tgz
-51 silly lockFile ace9ae67-55539-0-9432821171358228-tmp-tgz tar:///var/folders/r6/cf27pw7x1xx133f_wrkqg5440000gn/T/npm-76427-pY_dF5W6/1413087255539-0.9432821171358228/tmp.tgz
+48 silly lockFile 21f9a006-m-generator-zetam-0-1-18-package tar:///Users/marcelozapaia/.npm/generator-zetam/0.1.18/package
+49 silly lockFile 21f9a006-m-generator-zetam-0-1-18-package tar:///Users/marcelozapaia/.npm/generator-zetam/0.1.18/package
+50 silly lockFile ad028f95-1915-0-29058593581430614-tmp-tgz tar:///var/folders/r6/cf27pw7x1xx133f_wrkqg5440000gn/T/npm-76483-GOf02TSs/1413087311915-0.29058593581430614/tmp.tgz
+51 silly lockFile ad028f95-1915-0-29058593581430614-tmp-tgz tar:///var/folders/r6/cf27pw7x1xx133f_wrkqg5440000gn/T/npm-76483-GOf02TSs/1413087311915-0.29058593581430614/tmp.tgz
 52 silly lockFile 3a52ce78- .
 53 silly lockFile 3a52ce78- .
 54 silly publish { name: 'generator-zetam',
-54 silly publish   version: '0.1.17',
+54 silly publish   version: '0.1.18',
 54 silly publish   description: 'Yeoman generator',
 54 silly publish   license: 'MIT',
 54 silly publish   main: 'app/index.js',
@@ -85,32 +85,32 @@
 54 silly publish   readmeFilename: 'README.md',
 54 silly publish   bugs: { url: 'https://github.com/qzapaia/generator-zetam/issues' },
 54 silly publish   homepage: 'https://github.com/qzapaia/generator-zetam',
-54 silly publish   _id: 'generator-zetam@0.1.17',
-54 silly publish   _shasum: '6c49a3a47abd2ce5689188af32bd5b725a88e6b5',
+54 silly publish   _id: 'generator-zetam@0.1.18',
+54 silly publish   _shasum: '3e4796c57027cf8d6c74255c5f8732d340e918f7',
 54 silly publish   _from: '.' }
 55 verbose url raw generator-zetam
 56 verbose url resolving [ 'https://registry.npmjs.org/', './generator-zetam' ]
 57 verbose url resolved https://registry.npmjs.org/generator-zetam
-58 info trying registry request attempt 1 at 01:14:15
+58 info trying registry request attempt 1 at 01:15:12
 59 http PUT https://registry.npmjs.org/generator-zetam
 60 http 403 https://registry.npmjs.org/generator-zetam
-61 verbose headers { date: 'Sun, 12 Oct 2014 04:14:17 GMT',
+61 verbose headers { date: 'Sun, 12 Oct 2014 04:15:13 GMT',
 61 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
 61 verbose headers   'content-type': 'application/json',
 61 verbose headers   'cache-control': 'max-age=60',
 61 verbose headers   'content-length': '4160',
 61 verbose headers   'accept-ranges': 'bytes',
 61 verbose headers   via: '1.1 varnish',
-61 verbose headers   'x-served-by': 'cache-iad2127-IAD',
+61 verbose headers   'x-served-by': 'cache-jfk1030-JFK',
 61 verbose headers   'x-cache': 'MISS',
 61 verbose headers   'x-cache-hits': '0',
-61 verbose headers   'x-timer': 'S1413087257.372923,VS0,VE470',
+61 verbose headers   'x-timer': 'S1413087313.387915,VS0,VE422',
 61 verbose headers   'keep-alive': 'timeout=10, max=50',
 61 verbose headers   connection: 'Keep-Alive' }
 62 error publish Failed PUT 403
-63 error Error: forbidden cannot modify pre-existing version: 0.1.17
-63 error old={"name":"generator-zetam","version":"0.1.17","description":"Yeoman generator","license":"MIT","main":"app/index.js","repository":{"type":"git","url":"git://github.com/qzapaia/generator-zetam"},"author":{"url":"https://github.com/qzapaia"},"engines":{"node":">=0.10.0"},"scripts":{"test":"mocha"},"files":["app"],"keywords":["yeoman-generator"],"dependencies":{"yeoman-generator":"~0.16.0","chalk":"~0.4.0","yosay":"^0.1.0"},"devDependencies":{"mocha":"*"},"peerDependencies":{"yo":">=1.0.0"},"bugs":{"url":"https://github.com/qzapaia/generator-zetam/issues"},"homepage":"https://github.com/qzapaia/generator-zetam","_id":"generator-zetam@0.1.17","_shasum":"4d28de3bf213e2f4787b2e5844d3c926f5697dd6","_from":".","_npmVersion":"1.4.9","_npmUser":{"name":"qzapaia","email":"qzapaia@gmail.com"},"maintainers":[{"name":"qzapaia","email":"qzapaia@gmail.com"}],"dist":{"shasum":"4d28de3bf213e2f4787b2e5844d3c926f5697dd6","tarball":"http://registry.npmjs.org/generator-zetam/-/generator-zetam-0.1.17.tgz"}}
-63 error new={"name":"generator-zetam","version":"0.1.17","description":"Yeoman generator","license":"MIT","main":"app/index.js","repository":{"type":"git","url":"git://github.com/qzapaia/generator-zetam"},"author":{"url":"https://github.com/qzapaia"},"engines":{"node":">=0.10.0"},"scripts":{"test":"mocha"},"files":["app"],"keywords":["yeoman-generator"],"dependencies":{"yeoman-generator":"~0.16.0","chalk":"~0.4.0","yosay":"^0.1.0"},"devDependencies":{"mocha":"*"},"peerDependencies":{"yo":">=1.0.0"},"readme":"# generator-zetam \u000a\u000a> [Yeoman](http://yeoman.io) generator\u000a\u000a\u000a## Getting Started\u000a\u000a### What is Yeoman?\u000a\u000aTrick question. It's not a thing. It's this guy:\u000a\u000a![](http://i.imgur.com/JHaAlBJ.png)\u000a\u000aBasically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.\u000a\u000aNot every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*\u000a\u000a```bash\u000a$ npm install -g yo\u000a```\u000a\u000a### Yeoman Generators\u000a\u000aYeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.\u000a\u000aTo install generator-zetam from npm, run:\u000a\u000a```bash\u000a$ npm install -g generator-zetam\u000a```\u000a\u000aFinally, initiate the generator:\u000a\u000a```bash\u000a$ yo zetam\u000a```\u000a\u000a### Getting To Know Yeoman\u000a\u000aYeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced.\u000a\u000aIf you'd like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).\u000a\u000a\u000a## License\u000a\u000aMIT\u000a","readmeFilename":"README.md","bugs":{"url":"https://github.com/qzapaia/generator-zetam/issues"},"homepage":"https://github.com/qzapaia/generator-zetam","_id":"generator-zetam@0.1.17","_shasum":"6c49a3a47abd2ce5689188af32bd5b725a88e6b5","_from":".","_npmVersion":"1.4.9","_npmUser":{"name":"qzapaia","email":"qzapaia@gmail.com"},"maintainers":[{"name":"qzapaia","email":"qzapaia@gmail.com"}],"dist":{"shasum":"6c49a3a47abd2ce5689188af32bd5b725a88e6b5","tarball":"http://registry.npmjs.org/generator-zetam/-/generator-zetam-0.1.17.tgz"}}: generator-zetam
+63 error Error: forbidden cannot modify pre-existing version: 0.1.18
+63 error old={"name":"generator-zetam","version":"0.1.18","description":"Yeoman generator","license":"MIT","main":"app/index.js","repository":{"type":"git","url":"git://github.com/qzapaia/generator-zetam"},"author":{"url":"https://github.com/qzapaia"},"engines":{"node":">=0.10.0"},"scripts":{"test":"mocha"},"files":["app"],"keywords":["yeoman-generator"],"dependencies":{"yeoman-generator":"~0.16.0","chalk":"~0.4.0","yosay":"^0.1.0"},"devDependencies":{"mocha":"*"},"peerDependencies":{"yo":">=1.0.0"},"bugs":{"url":"https://github.com/qzapaia/generator-zetam/issues"},"homepage":"https://github.com/qzapaia/generator-zetam","_id":"generator-zetam@0.1.18","_shasum":"aa31d570b2c1a023cb45a83c39378eef5ebee66e","_from":".","_npmVersion":"1.4.9","_npmUser":{"name":"qzapaia","email":"qzapaia@gmail.com"},"maintainers":[{"name":"qzapaia","email":"qzapaia@gmail.com"}],"dist":{"shasum":"aa31d570b2c1a023cb45a83c39378eef5ebee66e","tarball":"http://registry.npmjs.org/generator-zetam/-/generator-zetam-0.1.18.tgz"}}
+63 error new={"name":"generator-zetam","version":"0.1.18","description":"Yeoman generator","license":"MIT","main":"app/index.js","repository":{"type":"git","url":"git://github.com/qzapaia/generator-zetam"},"author":{"url":"https://github.com/qzapaia"},"engines":{"node":">=0.10.0"},"scripts":{"test":"mocha"},"files":["app"],"keywords":["yeoman-generator"],"dependencies":{"yeoman-generator":"~0.16.0","chalk":"~0.4.0","yosay":"^0.1.0"},"devDependencies":{"mocha":"*"},"peerDependencies":{"yo":">=1.0.0"},"readme":"# generator-zetam \u000a\u000a> [Yeoman](http://yeoman.io) generator\u000a\u000a\u000a## Getting Started\u000a\u000a### What is Yeoman?\u000a\u000aTrick question. It's not a thing. It's this guy:\u000a\u000a![](http://i.imgur.com/JHaAlBJ.png)\u000a\u000aBasically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.\u000a\u000aNot every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*\u000a\u000a```bash\u000a$ npm install -g yo\u000a```\u000a\u000a### Yeoman Generators\u000a\u000aYeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.\u000a\u000aTo install generator-zetam from npm, run:\u000a\u000a```bash\u000a$ npm install -g generator-zetam\u000a```\u000a\u000aFinally, initiate the generator:\u000a\u000a```bash\u000a$ yo zetam\u000a```\u000a\u000a### Getting To Know Yeoman\u000a\u000aYeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced.\u000a\u000aIf you'd like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).\u000a\u000a\u000a## License\u000a\u000aMIT\u000a","readmeFilename":"README.md","bugs":{"url":"https://github.com/qzapaia/generator-zetam/issues"},"homepage":"https://github.com/qzapaia/generator-zetam","_id":"generator-zetam@0.1.18","_shasum":"3e4796c57027cf8d6c74255c5f8732d340e918f7","_from":".","_npmVersion":"1.4.9","_npmUser":{"name":"qzapaia","email":"qzapaia@gmail.com"},"maintainers":[{"name":"qzapaia","email":"qzapaia@gmail.com"}],"dist":{"shasum":"3e4796c57027cf8d6c74255c5f8732d340e918f7","tarball":"http://registry.npmjs.org/generator-zetam/-/generator-zetam-0.1.18.tgz"}}: generator-zetam
 63 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:273:14)
 63 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:211:65)
 63 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
