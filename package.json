@@ -1,6 +1,6 @@
 {
   "name": "generator-zetam",
-  "version": "0.1.23",
+  "version": "0.1.24",
   "description": "Yeoman generator",
   "license": "MIT",
   "main": "app/index.js",
@@ -13,7 +13,11 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "files":["app","component","page"],
+  "files": [
+    "app",
+    "component",
+    "page"
+  ],
   "scripts": {
     "test": "mocha"
   },
