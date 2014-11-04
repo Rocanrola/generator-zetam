@@ -6,8 +6,8 @@
   "main": "app/index.js",
   "repository": "qzapaia/generator-zetam",
   "author": {
-    "name": "",
-    "email": "",
+    "name": "Marcelo Zapaia",
+    "email": "qzapaia@gmail.com",
     "url": "https://github.com/qzapaia"
   },
   "engines": {
@@ -16,9 +16,6 @@
   "scripts": {
     "test": "mocha"
   },
-  "files": [
-    "app"
-  ],
   "keywords": [
     "yeoman-generator"
   ],
