@@ -1,0 +1,157 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/mzapaia/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/_j/4v1cfjpd0tx7sv_wr427m8vw0000gn/T/npm-11511-_xXWv10s/1415117082543-0.6682419485878199/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/_j/4v1cfjpd0tx7sv_wr427m8vw0000gn/T/npm-11511-_xXWv10s/1415117082543-0.6682419485878199/tmp.tgz
+12 verbose folder .
+13 info prepublish generator-zetam@0.1.22
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/mzapaia/.npm/1f1177db-tar.lock
+16 silly lockFile 5033ca8d-82543-0-6682419485878199-tmp-tgz tar:///var/folders/_j/4v1cfjpd0tx7sv_wr427m8vw0000gn/T/npm-11511-_xXWv10s/1415117082543-0.6682419485878199/tmp.tgz
+17 verbose lock tar:///var/folders/_j/4v1cfjpd0tx7sv_wr427m8vw0000gn/T/npm-11511-_xXWv10s/1415117082543-0.6682419485878199/tmp.tgz /Users/mzapaia/.npm/5033ca8d-82543-0-6682419485878199-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 5033ca8d-82543-0-6682419485878199-tmp-tgz tar:///var/folders/_j/4v1cfjpd0tx7sv_wr427m8vw0000gn/T/npm-11511-_xXWv10s/1415117082543-0.6682419485878199/tmp.tgz
+21 silly lockFile 5033ca8d-82543-0-6682419485878199-tmp-tgz tar:///var/folders/_j/4v1cfjpd0tx7sv_wr427m8vw0000gn/T/npm-11511-_xXWv10s/1415117082543-0.6682419485878199/tmp.tgz
+22 verbose tar unpack /var/folders/_j/4v1cfjpd0tx7sv_wr427m8vw0000gn/T/npm-11511-_xXWv10s/1415117082543-0.6682419485878199/tmp.tgz
+23 silly lockFile b5357366-m-generator-zetam-0-1-22-package tar:///Users/mzapaia/.npm/generator-zetam/0.1.22/package
+24 verbose lock tar:///Users/mzapaia/.npm/generator-zetam/0.1.22/package /Users/mzapaia/.npm/b5357366-m-generator-zetam-0-1-22-package.lock
+25 silly lockFile 5033ca8d-82543-0-6682419485878199-tmp-tgz tar:///var/folders/_j/4v1cfjpd0tx7sv_wr427m8vw0000gn/T/npm-11511-_xXWv10s/1415117082543-0.6682419485878199/tmp.tgz
+26 verbose lock tar:///var/folders/_j/4v1cfjpd0tx7sv_wr427m8vw0000gn/T/npm-11511-_xXWv10s/1415117082543-0.6682419485878199/tmp.tgz /Users/mzapaia/.npm/5033ca8d-82543-0-6682419485878199-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm extractEntry README.md
+31 silly gunzTarPerm extractEntry LICENSE
+32 silly gunzTarPerm extractEntry app/index.js
+33 silly gunzTarPerm extractEntry app/templates/package.json
+34 silly gunzTarPerm extractEntry app/templates/app.js
+35 silly gunzTarPerm extractEntry app/templates/gulpfile.js
+36 silly gunzTarPerm extractEntry app/templates/Procfile
+37 silly gunzTarPerm extractEntry app/templates/components/base/controller.js
+38 silly gunzTarPerm extractEntry app/templates/components/base/view.js
+39 silly gunzTarPerm extractEntry app/templates/components/base/styles.less
+40 silly gunzTarPerm extractEntry app/templates/components/base/template.html
+41 silly gunzTarPerm extractEntry app/templates/gitignore
+42 silly gunzTarPerm extractEntry app/templates/pages/index/controller.js
+43 silly gunzTarPerm extractEntry app/templates/pages/index/view.js
+44 silly gunzTarPerm extractEntry app/templates/pages/index/styles.less
+45 silly gunzTarPerm extractEntry app/templates/pages/index/template.html
+46 silly gunzTarPerm extractEntry app/templates/public/css/components/base.css
+47 silly gunzTarPerm extractEntry app/templates/public/css/pages/index.css
+48 silly gunzTarPerm extractEntry app/templates/public/js/components/base.js
+49 silly gunzTarPerm extractEntry app/templates/public/js/pages/index.js
+50 silly gunzTarPerm extractEntry .editorconfig
+51 silly gunzTarPerm extractEntry .jshintrc
+52 silly gunzTarPerm extractEntry .gitattributes
+53 silly gunzTarPerm extractEntry component/index.js
+54 silly gunzTarPerm extractEntry component/templates/controller.js
+55 silly gunzTarPerm extractEntry component/templates/view.js
+56 silly gunzTarPerm extractEntry component/templates/i18n.json
+57 silly gunzTarPerm extractEntry component/templates/styles.less
+58 silly gunzTarPerm extractEntry component/templates/template.html
+59 silly gunzTarPerm extractEntry dump.rdb
+60 silly gunzTarPerm extractEntry push.sh
+61 silly gunzTarPerm extractEntry .travis.yml
+62 silly gunzTarPerm extractEntry page/index.js
+63 silly gunzTarPerm extractEntry page/templates/controller.js
+64 silly gunzTarPerm extractEntry page/templates/view.js
+65 silly gunzTarPerm extractEntry page/templates/i18n.json
+66 silly gunzTarPerm extractEntry page/templates/styles.less
+67 silly gunzTarPerm extractEntry page/templates/template.html
+68 silly gunzTarPerm extractEntry test/test-creation.js
+69 silly gunzTarPerm extractEntry test/test-load.js
+70 silly lockFile b5357366-m-generator-zetam-0-1-22-package tar:///Users/mzapaia/.npm/generator-zetam/0.1.22/package
+71 silly lockFile b5357366-m-generator-zetam-0-1-22-package tar:///Users/mzapaia/.npm/generator-zetam/0.1.22/package
+72 silly lockFile 5033ca8d-82543-0-6682419485878199-tmp-tgz tar:///var/folders/_j/4v1cfjpd0tx7sv_wr427m8vw0000gn/T/npm-11511-_xXWv10s/1415117082543-0.6682419485878199/tmp.tgz
+73 silly lockFile 5033ca8d-82543-0-6682419485878199-tmp-tgz tar:///var/folders/_j/4v1cfjpd0tx7sv_wr427m8vw0000gn/T/npm-11511-_xXWv10s/1415117082543-0.6682419485878199/tmp.tgz
+74 silly lockFile 3a52ce78- .
+75 silly lockFile 3a52ce78- .
+76 silly publish { name: 'generator-zetam',
+76 silly publish   version: '0.1.22',
+76 silly publish   description: 'Yeoman generator',
+76 silly publish   license: 'MIT',
+76 silly publish   main: 'app/index.js',
+76 silly publish   repository: { type: 'git', url: 'git://github.com/qzapaia/generator-zetam' },
+76 silly publish   author:
+76 silly publish    { name: 'Marcelo Zapaia',
+76 silly publish      email: 'qzapaia@gmail.com',
+76 silly publish      url: 'https://github.com/qzapaia' },
+76 silly publish   engines: { node: '>=0.10.0' },
+76 silly publish   scripts: { test: 'mocha' },
+76 silly publish   keywords: [ 'yeoman-generator' ],
+76 silly publish   dependencies:
+76 silly publish    { 'yeoman-generator': '~0.16.0',
+76 silly publish      chalk: '~0.4.0',
+76 silly publish      yosay: '^0.1.0' },
+76 silly publish   devDependencies: { mocha: '*' },
+76 silly publish   peerDependencies: { yo: '>=1.0.0' },
+76 silly publish   readme: '# generator-zetam \n\n> [Yeoman](http://yeoman.io) generator\n\n\n## Getting Started\n\n### What is Yeoman?\n\nTrick question. It\'s not a thing. It\'s this guy:\n\n![](http://i.imgur.com/JHaAlBJ.png)\n\nBasically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.\n\nNot every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*\n\n```bash\n$ npm install -g yo\n```\n\n### Yeoman Generators\n\nYeoman travels light. He didn\'t pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.\n\nTo install generator-zetam from npm, run:\n\n```bash\n$ npm install -g generator-zetam\n```\n\nFinally, initiate the generator:\n\n```bash\n$ yo zetam\n```\n\n### Getting To Know Yeoman\n\nYeoman has a heart of gold. He\'s a person with feelings and opinions, but he\'s very easy to work with. If you think he\'s too opinionated, he can be easily convinced.\n\nIf you\'d like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).\n\n\n## License\n\nMIT\n',
+76 silly publish   readmeFilename: 'README.md',
+76 silly publish   bugs: { url: 'https://github.com/qzapaia/generator-zetam/issues' },
+76 silly publish   homepage: 'https://github.com/qzapaia/generator-zetam',
+76 silly publish   _id: 'generator-zetam@0.1.22',
+76 silly publish   _shasum: 'd64f9ec3d697fbc724e1b0ddd304c05f7ea9ac3e',
+76 silly publish   _from: '.' }
+77 verbose url raw generator-zetam
+78 verbose url resolving [ 'https://registry.npmjs.org/', './generator-zetam' ]
+79 verbose url resolved https://registry.npmjs.org/generator-zetam
+80 info trying registry request attempt 1 at 13:04:42
+81 http PUT https://registry.npmjs.org/generator-zetam
+82 http 403 https://registry.npmjs.org/generator-zetam
+83 verbose headers { date: 'Tue, 04 Nov 2014 16:04:42 GMT',
+83 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+83 verbose headers   'content-type': 'application/json',
+83 verbose headers   'cache-control': 'max-age=60',
+83 verbose headers   'content-length': '231',
+83 verbose headers   'accept-ranges': 'bytes',
+83 verbose headers   via: '1.1 varnish',
+83 verbose headers   'x-served-by': 'cache-iad2120-IAD',
+83 verbose headers   'x-cache': 'MISS',
+83 verbose headers   'x-cache-hits': '0',
+83 verbose headers   'x-timer': 'S1415117082.096988,VS0,VE475',
+83 verbose headers   'keep-alive': 'timeout=10, max=50',
+83 verbose headers   connection: 'Keep-Alive' }
+84 error publish Failed PUT 403
+85 error Error: forbidden Attempting to modify version 0.1.22,
+85 error which was previously published on 2014-11-04T15:54:26.648Z.
+85 error This is forbidden, to maintain package integrity.
+85 error Please update the version number and try again.: generator-zetam
+85 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:273:14)
+85 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:211:65)
+85 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+85 error     at Request.EventEmitter.emit (events.js:98:17)
+85 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+85 error     at Request.EventEmitter.emit (events.js:117:20)
+85 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+85 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+85 error     at _stream_readable.js:919:16
+85 error     at process._tickCallback (node.js:419:13)
+86 error If you need help, you may report this *entire* log,
+86 error including the npm and node versions, at:
+86 error     <http://github.com/npm/npm/issues>
+87 error System Darwin 14.0.0
+88 error command "node" "/usr/local/bin/npm" "publish"
+89 error cwd /Users/mzapaia/src/generator-zetam
+90 error node -v v0.10.28
+91 error npm -v 1.4.9
+92 verbose exit [ 1, true ]
