@@ -1,24 +1,26 @@
 {
   "name": "generator-zetam",
-  "version": "0.1.21",
+  "version": "0.1.24",
   "description": "Yeoman generator",
   "license": "MIT",
   "main": "app/index.js",
   "repository": "qzapaia/generator-zetam",
   "author": {
-    "name": "",
-    "email": "",
+    "name": "Marcelo Zapaia",
+    "email": "qzapaia@gmail.com",
     "url": "https://github.com/qzapaia"
   },
   "engines": {
     "node": ">=0.10.0"
   },
+  "files": [
+    "app",
+    "component",
+    "page"
+  ],
   "scripts": {
     "test": "mocha"
   },
-  "files": [
-    "app"
-  ],
   "keywords": [
     "yeoman-generator"
   ],
